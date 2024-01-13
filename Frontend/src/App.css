@@ -1,0 +1,332 @@
+.container {
+  display: flex;
+  background-color: #dadada;
+  height: calc(100vh);
+  overflow-y:auto;
+}
+
+.header{
+  color: #000;
+  font-size: 32px;
+}
+
+.schueler-upload{
+  display: inline;
+  margin-left: 10px
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  background-color: #0e1620;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh);
+  overflow-y: none;
+  margin-bottom: 5%;
+}
+
+.label{
+  color: #000;
+  margin-left: 20%;
+}
+
+.label_2{
+  color: #000;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.label_3{
+  color: #000;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.logout{
+  position: fixed;
+  bottom: 20px;
+}
+
+.icon{
+  background: url("icon2.png")no-repeat scroll 0 0 transparent;
+}
+
+.icon2{
+  background: url("icon2.png")no-repeat scroll transparent;
+  width: 50%px;
+  display: inline;
+  margin-left: 100px;
+}
+
+
+.label-header{
+  color: #000;
+  font-size: 24px;
+}
+
+.x-button{
+  background-color: #fff;
+  border: 1.5px solid #000000;
+  color: #000000;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 17.5%;
+  margin-top: 10px;
+  width: 2.5%;
+  text-align: center;
+}
+
+.plus{
+  font-weight: bold;
+  font-size: 34px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.input-form{
+  width: 95%;
+  background-color: #ccc;
+  border: 1.5px solid #000000;
+  border-radius: 4px;
+  margin-top: 10px;
+  size: fixed;
+}
+
+.text-input{
+  width: 40%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline;
+}
+.textarea {
+  width: 95%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1.5px solid #000000;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  resize: none;
+  margin-top: 20px;
+}
+
+.align-right{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 5%;
+}
+
+.align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.main {
+  margin-left: 25%;
+  flex: 1;
+  height: calc(100vh - 4px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.padding{
+  background-color: #dadada;
+  color: #dadada;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav {
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.nav li {
+  margin-bottom: 30px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 40px;
+}
+
+.message-form {
+  display: flex;
+  margin-top: 1000px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1600px;
+  gap: 40px;
+  justify-content: center;
+}
+.message-form input {
+  flex: 1;
+  padding: 12px 24px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  height: 60px;
+  width: 150px;
+}
+
+.message-form input:focus,
+.message-form input:hover {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+.message-form button {
+  padding: 12px 16px;
+  font-size: 24px;
+  height: 60px;
+  color: #fff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-form button:focus,
+.message-form button:hover {
+  background-color: #6f72e5;
+}
+
+.inputField{
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 30px;
+  width: 80%;
+}
+
+.upload-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.refresh-button {
+  padding: 12px 12px;
+  background-color: #fff;
+  border: 1.5px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border-radius: 12px;
+  width: 10%;
+}
+
+.upload-input {  
+  height: 20px; /* Modify the height here */
+  width: 400px; /* Modify the width here */
+  padding: 16 16px;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+ }  
+.upload-input:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.upload-button {
+  padding: 12px 12px;
+  background-color: #fff;
+  border: 1.5px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 12px;
+  margin-top: 10px;
+  border-radius: 12px;
+  width: 10%;
+}
+
+.schueler-upload-button{
+  padding: 12px 12px;
+  background-color: #fff;
+  border: 1.5px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  border-radius: 12px;
+  width: 15%;
+  float: right;
+}
+
+.upload-button:focus,
+.upload-button:hover {
+  background-color: #6f72e5;
+}
+
+.drop-zone {
+  border: 3px dashed #000;
+  border-radius: 5px;
+  padding: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 10px;
+}
+.drop-zone:focus {
+  outline: none;
+}
+
+.drop-zone:hover,
+.drop-zone.drag-over {
+  border-color: #007bff;
+}
+
+.drop-text {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #000;
+}
